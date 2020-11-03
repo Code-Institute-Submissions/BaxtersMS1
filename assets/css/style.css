@@ -16,8 +16,19 @@ header {
     min-height: 160px;
 }   
 
+/*--------------------------------------------Navbar*/
+
+
+
+
 /*--------------------------------------------General*/
-.inline-block {  display: inline-block;  }
+.inline-block {  
+    display: inline-block; 
+     }
+
+.uppercase {
+    text-transform: uppercase;
+}
 
 
 
@@ -27,8 +38,9 @@ header {
 footer {
     background-color: #00B5CB;
     min-height: 120px;
-    color: #ffffff;
-
+    color: #ffffff;#
+    text-size-adjust: 30px;
+    margin-bottom: 10px,
 }
 
 .social-links {
@@ -55,8 +67,14 @@ color: #ffffff
 }
 
 .social-links i {
-    color: #ffffff
+    color: #ffffff;
+
 }
 
-.social-links i:hover {
-    background: #e84610;
+.email-address a {
+    color: #ffffff;
+}
+
+#footer-details {
+   padding:20px;
+    }
