@@ -16,9 +16,21 @@ header {
     min-height: 160px;
 }   
 
-/*--------------------------------------------Navbar*/
+/*--------------------------------------------Colours*/
+.ui-home-colour-flu {
+    background-color:#742E83;
+     }
 
+.ui-home-colour-blood-pressure {
+    background-color: #00b5cb;     
+}
 
+.ui-home-colour-blister {
+    background-color:#742E83;
+}
+.ui-home-colour-delivery {
+    background-color: #00b5cb;     
+}
 
 
 /*--------------------------------------------General*/
@@ -44,12 +56,54 @@ header {
 }
 
 
+/*--------------------------------------------Services*/
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+
+
+.menucontainer {
+    font-size: 0;
+    padding: 0;
+}
+
+#services li {
+    font-size: 18px;
+    padding: 0;
+}
+
+.serviceitem {
+    height: 150px;
+    text-align: center;
+    padding: 0;
+}
+
+.serviceitem a {
+    height: 150px;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.serviceitem a i {
+    padding-top: 22px;
+    display: block;
+    font-size: 26px;
+}
+
+.serviceitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+}
 
 /*--------------------------------------------Footer*/
 footer {
     background-color: #00B5CB;
     min-height: 120px;
-    color: #ffffff;#
+    color: #ffffff;
     text-size-adjust: 30px;
     margin-bottom: 10px,
 }
@@ -84,6 +138,7 @@ color: #ffffff
 
 .email-address a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 #footer-details {
