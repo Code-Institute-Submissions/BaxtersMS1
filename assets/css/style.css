@@ -34,17 +34,13 @@ header {
 /*--------------------------------------------Hero Image*/
 
 .cover-image {
-     background: url('../images/cover-image.jpg') no-repeat center center fixed;
+     height: 600px;
+     width: 100%;
+     background: url('../images/cover-image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+     background-size: cover;
 }
 
 
