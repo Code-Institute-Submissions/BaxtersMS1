@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
+body{
+    color: #777777;
+}
+
 header {
     margin: 0;
     }
@@ -43,6 +48,8 @@ header {
 
 
 /*-------------------------------------------------------------------------General*/
+
+
 .inline-block {  
     display: inline-block; 
      }
@@ -141,7 +148,7 @@ font-size: 130%;
     text-align: center;
 }
 
-/*--------------------------------------------Footer*/
+/*---------------------------------------------------------------------Footer*/
 footer {
     background-color: #00B5CB;
     min-height: 120px;
@@ -185,4 +192,10 @@ color: #ffffff
 
 #footer-details {
    padding:20px;
+    }
+
+/*---------------------------------------------------------------------About*/
+
+#owner {
+    background: url("../images/pharmacists.png") no-repeat center center;
     }
