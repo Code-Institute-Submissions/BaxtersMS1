@@ -3,20 +3,29 @@
 header {
     margin: 0;
     }
-/*--------------------------------------------Logo*/
+/*--------------------------------------------------------------------------Logo*/
 
 .logo {
     background: url("../images/baxters-logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 0;
     -webkit-background-size: cover;
 -   -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 160px;
 }   
 
-/*--------------------------------------------Colours*/
+/*----------------------------------------------------------------------Navbar*/
+
+#menu {
+    font-size: 115%;
+    color: #742E83;
+}
+
+
+/*------------------------------------------------------------------------Colours*/
 .ui-home-colour-flu {
     background-color:#742E83;
      }
@@ -33,7 +42,7 @@ header {
 }
 
 
-/*--------------------------------------------General*/
+/*-------------------------------------------------------------------------General*/
 .inline-block {  
     display: inline-block; 
      }
@@ -42,35 +51,68 @@ header {
     text-transform: uppercase;
 }
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/*----------------------------------------------------------------------Hero Image*/
 
-/*--------------------------------------------Hero Image*/
+#cover-outer {
+    position: relative;
+}
 
-.cover-image {
+#cover-image {
      height: 600px;
      width: 100%;
-     background: url('../images/cover-image.jpg') no-repeat center center;
+     background: url("../images/baxters-pharmacy-hero.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
 }
 
+#cover-text h2 {
+color: #ffffff;
+font-size: 130%;
 
-/*--------------------------------------------Services*/
+}
+
+#cover-text {
+    padding-top: 10px;
+    
+    height: 220px;
+    width: 220px;
+    padding-top: 60px;
+    padding-left: 20px;
+
+    background-color:rgba(116, 46, 131, 0.5);
+
+    bottom: 10px;
+    right: 90px;
+   
+    position: absolute;
+
+}
+
+
+/*------------------------------------------------------------------------------------------Services*/
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
-
-
 .menucontainer {
     font-size: 0;
     padding: 0;
+    
 }
 
 #services li {
     font-size: 18px;
-    padding: 0;
+    padding: 20px;
+    margin: 25px;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
 }
 
 .serviceitem {
