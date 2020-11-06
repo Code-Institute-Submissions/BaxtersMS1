@@ -46,6 +46,9 @@ header {
     background-color: #00b5cb;     
 }
 
+.ui-about-colour-about {
+    background-color: rgba(0, 181, 203, 0.4);    
+}
 
 /*-------------------------------------------------------------------------General*/
 
@@ -196,6 +199,47 @@ color: #ffffff
 
 /*---------------------------------------------------------------------About*/
 
-#owner {
-    background: url("../images/pharmacists.png") no-repeat center center;
-    }
+.about-us {
+    text-align: center;
+
+}
+.team {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+
+#teamsr {
+    padding-top: 30px;
+    width: 50%;
+}
+
+#teampr {
+    padding-top: 30px;
+    width: 50%;
+}
+
+
+.circle-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#circle-image-sr-bg {
+    background: url("../images/pharmacistsr.png") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-image-pr-bg {
+    background: url("../images/pharmacistpr.png") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.about-container {
+    margin-bottom: 40px;
+}
