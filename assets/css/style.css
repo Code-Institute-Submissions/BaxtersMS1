@@ -269,3 +269,22 @@ button[type="submit"] {
     -o-background-size: cover;
      background-size: cover;
 }
+
+
+/*---------------------------------------------------------------------Services Page*/
+
+#service-icon-ui {
+color:  #00B5CB;
+
+
+#service-icon-bg {
+width: 32px;
+height: 32px;
+padding: 12px 0;
+border-radius: 50%;
+font-size: 13px;
+line-height: 10px;
+text-align: center;
+background: #742E83;
+}
+
