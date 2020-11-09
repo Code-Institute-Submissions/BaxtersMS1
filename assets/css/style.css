@@ -276,16 +276,7 @@ button[type="submit"] {
 .service-page-ui {
     color:#00B5CB;
 }
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    text-align: center;
-    padding-left: 10px;
-    font-size: 30px;
+.service-icon-style {
+    font-size: 180%;
     color:#00B5CB;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
-
