@@ -47,7 +47,8 @@ header {
 }
 
 .ui-about-colour-about {
-    background-color: rgba(0, 181, 203, 0.4);    
+    background-color: rgba(0, 181, 203, 0.4);   
+ 
 }
 /*-----------------------------------------------------------------------------------------------------------------------General*/
 
@@ -80,10 +81,9 @@ header {
      background-size: cover;
 }
 
-#cover-text h2 {
+#cover-text h1 {
 color: #ffffff;
 font-size: 130%;
-
 }
 
 #cover-text {
@@ -114,18 +114,21 @@ font-size: 130%;
     padding: 0;
     
 }
+.list-inline menucontainer {
+    display: inline;
+}
 
 #services li {
     font-size: 18px;
     padding: 20px;
     margin: 25px;
-    height: 220px;
-    width: 220px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
 }
 
 .serviceitem {
-    height: 150px;
+    height: 125px;
     text-align: center;
     padding: 0;
 }
@@ -202,6 +205,8 @@ background: #742E83;
 
 .about-us .team {
     padding-top: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 
@@ -222,6 +227,7 @@ background: #742E83;
     height: 200px;
     border-radius: 50%;
     align-items: center;
+    margin-left: 15px;
 }
 
 #circle-image-sr-bg {
@@ -238,6 +244,7 @@ background: #742E83;
 
 .about-container {
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 
@@ -277,6 +284,12 @@ button[type="submit"] {
 
 /*---------------------------------------------------------------------------------------------------------------Services Page*/
 
+.services-page-heading {
+    padding-top: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .service-page-ui {
     color:#00B5CB;
 }
@@ -284,3 +297,4 @@ button[type="submit"] {
     font-size: 180%;
     color:#00B5CB;
 }
+
