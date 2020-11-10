@@ -83,7 +83,6 @@ font-size: 130%;
 
     bottom: 10px;
     right: 90px;
-   
     position: absolute;
 
 }
@@ -96,7 +95,7 @@ font-size: 130%;
     height: 200px;
     float: left;
     text-align: center;
-    padding-top: 30px;  
+    padding-top: 35px;  
 }
 
 #flu {
@@ -118,11 +117,13 @@ font-size: 130%;
 .serviceitem div {
     color: #ffffff;
     text-decoration: none;
+    ;
 }
 
-.test1 a {
+.home-servvices-content a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 22px;
 }
 
 ------------------------------------------------------------------------------------------------------------------Footer*/
@@ -165,7 +166,7 @@ background: #742E83;
 }
 
 .email-address a {
-    color: #ffffff;
+    color: #777777;
     text-decoration: none;
 }
 
