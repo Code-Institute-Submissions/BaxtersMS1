@@ -31,27 +31,12 @@ header {
 
 
 /*---------------------------------------------------------------------------------------------------------------Colours*/
-.ui-home-colour-flu {
-    background-color:#742E83;
-     }
-
-.ui-home-colour-blood-pressure {
-    background-color: #00b5cb;     
-}
-
-.ui-home-colour-blister {
-    background-color:#742E83;
-}
-.ui-home-colour-delivery {
-    background-color: #00b5cb;     
-}
 
 .ui-about-colour-about {
     background-color: rgba(0, 181, 203, 0.4);   
  
 }
 /*-----------------------------------------------------------------------------------------------------------------------General*/
-
 
 .inline-block {  
     display: inline-block; 
@@ -105,61 +90,48 @@ font-size: 130%;
 
 
 /*-----------------------------------------------------------------------------------------------------------Services on home Page*/
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
 
-.menucontainer {
-    font-size: 0;
-    padding: 0;
-    
-}
-.list-inline menucontainer {
-    display: inline;
-}
-
-#services li {
-    font-size: 18px;
-    padding: 20px;
-    margin: 25px;
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-}
-
-.serviceitem {
-    height: 125px;
+#serviceitem div {
+    width: 25%;
+    height: 200px;
+    float: left;
     text-align: center;
-    padding: 0;
+    padding-top: 30px;  
 }
 
-.serviceitem a {
-    height: 150px;
-    width: 100%;
-    text-decoration: none;
+#flu {
+    background-color:rgba(116, 46, 131, 0.5);
+}
+
+#blood-pressure {
+    background-color:rgba(0, 181, 203, 0.5);
+}
+
+#blister {
+    background-color:rgba(116, 46, 131, 0.5);
+}
+
+#delivery {
+    background-color:rgba(0, 181, 203, 0.5);
+}
+
+.serviceitem div {
     color: #ffffff;
+    text-decoration: none;
 }
 
-.serviceitem a i {
-    padding-top: 22px;
-    display: block;
-    font-size: 26px;
+.test1 a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.serviceitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-}
-
-/*--------------------------------------------------------------------------------------------------------------------Footer*/
+------------------------------------------------------------------------------------------------------------------Footer*/
 footer {
-    background-color: #00B5CB;
+    background: #00B5CB;
     min-height: 120px;
     color: #ffffff;
     text-size-adjust: 30px;
-    margin-bottom: 10px,
+    margin-bottom: 10px;
 }
 
 
@@ -198,8 +170,9 @@ background: #742E83;
 }
 
 #footer-details {
-   padding: 20px;
-    }
+    padding: 20px;
+    background-color:#00B5CB;;
+}
 
 /*-------------------------------------------------------------------------------------------------------------About Page*/
 
