@@ -1,45 +1,153 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **Baxters Pharmacy**
 
-Welcome asplesa,
+[View the live project here](https://asplesa.github.io/BaxtersMS1/).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is the website for Baxters Pharmacy, a local community pharmacy. Baxters does not currently have an online presence. The website has been created to enable Baxters to be found online so that they can compete with local competitors and also to showcase the range of services that they offer.
 
-## Gitpod Reminders
+It is designed to be responsible and accessible on a range of devices, making it easy to navigate for existing and potential customers.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![](RackMultipart20201112-4-1h9emjy_html_7449d4e014077d6.jpg)
 
-`python3 -m http.server`
+**User Experience (UX)**
 
-A blue button should appear to click: *Make Public*,
+- **User stories**
+  - **Site Owner Goals**
 
-Another blue button should appear to click: *Open Browser*.
+    - As a Site owner, I want to portray a sense of trust and transparency by explaining who I am and that I am locally owned business [About Page].
+    - As a Site owner, I want to be able to easily explain the list of services that I offer. [Services page].
+    - As a Site owner, I want to communicate to customers what my opening hours at and how to contact me. [Contact page].
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - **Existing Customer Goals**
 
-A blue button should appear to click: *Make Public*,
+    - As an Existing Customer, I want to know what your opening hours are [Contact page].
+    - As a an Existing Customer, I want to know if you will deliver my prescriptions to me [Services Page].
+    - As an Existing Customer, I want to find community links [Footer].
 
-Another blue button should appear to click: *Open Browser*.
+  - **Potential Customer Goals**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - As a Potential Customer, I want to see who owns the pharmacy and can I trust them. [About Page].
+    - As a Potential Customer, I want to check where you are located [Contact page].
+    - As a Potential Customer, I want to know if I can get the flu vaccination [Services Page].
 
-## Updates Since The Instructional Video
+- **Design**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Overall Design brief**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Baxters is a community pharmacy so the overall design theme is clean and modern. However we also need to portray a feeling of trust as they are a locally owned pharmacy as opposed to a large chain. This was achieved by showing images of the owners throughout the site.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**Colour Scheme**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+As Baxters is part of TotalHealth we integrated the colours used by Totalhealth as part of the overall design. The two main colours in use are purple and green. Green is the primary colour used for branding with purple used as an accent shade.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+**Typography**
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+We used Google Fonts – Roboto font family font as the main font throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn&#39;t being imported into the site correctly.. Roboto is Contemporary, modern, minimalistic, and clean which ties in with our overall design theme.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Imagery**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Imagery is very important. The images help to develop trust with the user. By using images of the pharmacy owners it conveys that feeling of being approachable and friendly. The images of the owners are front and centre, building a relationship with the user/customer before they even enter the shop.
 
---------
+- **Wireframes**
 
-Happy coding!
+I created the wireframe in Balsamiq which I then exported to **pdf.**
+
+**Features**
+
+- Responsive on all device sizes
+- 4 pages – Home, About, Services, Contact.
+- Bootstrap NavBar used so the user can navigate the site easily.
+- Social Media links on the footer of each page.
+- Forms used to enable users to contact the pharmacy.
+
+**Technologies Used**
+
+**Languages Used**
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+**Frameworks, Libraries &amp; Programs Used**
+
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+  - Bootstrap was used to assist with the responsiveness and styling of the website.
+2. [Google Fonts:](https://fonts.google.com/)
+  - Google fonts were used to import the Roboto font into the style.css file which is used on all pages throughout the project.
+3. [Font Awesome:](https://fontawesome.com/)
+  - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+4. [Git](https://git-scm.com/)
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+5. [GitHub:](https://github.com/)
+  - GitHub is used to store the projects code after being pushed from Git.
+6. [Canva:](https://www.adobe.com/ie/products/photoshop.html)
+  - Photoshop was used to create the logo, resizing images and editing photos for the website.
+7. [Balsamiq:](https://balsamiq.com/)
+  - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+8. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - is used to debug and test site responsiveness on all screen sizes.
+9. [Google Fonts](https://fonts.google.com/) –
+  - used to select font families
+10. [HTML Formatter](https://www.webformatter.com/html) –
+  - html formatter to help keep things tidy
+11. [Am I Responsive](http://ami.responsivedesign.is/) –
+  - used to create responsive image for readme.MD
+
+**Testing**
+
+**HTML/CSS:** The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+**Links:** All internal and external links on the site were checked and verified.
+
+**UX/UI:** Upon entering the site users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. We used a \&lt;nav\&gt; for semantic clarity to allow searches to know that the links inside are specifically for navigation. The navbar is ordered in priority of information from left to right. So starting with the home-page, followed by the About page, to create trust with users, followed by services offered and the contact page.
+
+A bold and central image of the owner smiling immediately creates a feeling of trust. The sense is extended in the About us page where we are included visuals of the owners along with a bio to create a sense of &quot;knowing&quot; your local pharmacist.
+
+**Further Testing**
+
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- We used Lighthouse in Chrome Devtools to check for site performance, accessibility and best practices.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 &amp; iPhoneX.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+**Known Bugs**
+
+- The map on the Contact page is pushing into the footer on mobile devices. On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+
+**Deployment**
+
+**GitHub Pages**
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/asplesa/BaxtersMS1)
+2. At the top of the Repository (not top of page), locate the &quot;Settings&quot; Button on the menu.
+3. Scroll down the Settings page until you locate the &quot;GitHub Pages&quot; Section.
+4. Under &quot;Source&quot;, click the dropdown called &quot;None&quot; and select &quot;Master Branch&quot;.
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://asplesa.github.io/BaxtersMS1/index.html) in the &quot;GitHub Pages&quot; section.
+
+**Credits**
+
+**Code**
+
+- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. HTML and CSS used throughout.
+- Code Institute Tutorials – I replied on and referred back to the code in the tutorials on HTML and CSS.
+
+**Content**
+
+- All content was written by the developer with input from the owners of Baxters Pharmacy.
+
+**Media**
+
+- The logo was provided by the owners of Baxters.
+- Canva was used for the cover image and 2 pharmacy profile images.
+  - [https://www.canva.com/media/MADaAPnrbqY](https://www.canva.com/media/MADaAPnrbqY)
+  - [https://www.canva.com/media/MAEJI3EUe2U](https://www.canva.com/media/MAEJI3EUe2U)
+  -
+- Canva and https://pixlr.com/x/ used to resize the images
+- The map was obtained from Google map.
+
+**Acknowledgements**
+
+- My Mentor for continuous helpful feedback.
+- The owners of Baxters for their time and input to the project.
+- Tutor support at Code Institute for their support.
+
