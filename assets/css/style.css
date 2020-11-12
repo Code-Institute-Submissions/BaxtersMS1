@@ -17,7 +17,7 @@ header {
     background-size: cover;
     padding-left: 0;
     -webkit-background-size: cover;
--   -moz-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 160px;
 }   
@@ -37,10 +37,6 @@ header {
  
 }
 /*-----------------------------------------------------------------------------------------------------------------------General*/
-
-.inline-block {  
-    display: inline-block; 
-     }
 
 .uppercase {
     text-transform: uppercase;
@@ -126,12 +122,11 @@ font-size: 130%;
     font-size: 22px;
 }
 
-------------------------------------------------------------------------------------------------------------------Footer*/
+/*---------------------------------------------------------------------------------------------------Footer*/
 footer {
     background: #00B5CB;
     min-height: 120px;
     color: #ffffff;
-    text-size-adjust: 30px;
     margin-bottom: 10px;
 }
 
