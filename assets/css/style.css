@@ -1,34 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
+/**{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*/
+
 body{
+   font-family: roboto;
     color: #777777;
 }
 
 header {
     margin: 0;
+    height: 130px;
     }
 /*-----------------------------------------------------------------------------------------------------------------------Logo*/
 
-.logo {
-    background: url("../images/baxters-logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    min-height: 160px;
+#logo {
+      width: 130px;
+      height: 130px;   
+      background-image: url("../images/baxters-logo.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      float: left;
 }   
 
 /*--------------------------------------------------------------------------------------------------------------------Navbar*/
 
-#menu {
-    font-size: 115%;
-    color: #742E83;
+.navbar {
+    float: right;
 }
 
+#menu {
+    font-size: 115%;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+
+}
 
 /*---------------------------------------------------------------------------------------------------------------Colours*/
 
