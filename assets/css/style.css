@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-/**{
-    margin: 0;
-    padding: 0;
-    border: 0;
+*{
+    margin:0;
+    padding:0;
+    border:0;
 }
-
-*/
 
 body{
    font-family: roboto;
@@ -43,9 +40,6 @@ header {
     line-height: 75px;
 }
 
-
-}
-
 /*---------------------------------------------------------------------------------------------------------------Colours*/
 
 .ui-about-colour-about {
@@ -65,7 +59,10 @@ header {
 /*-------------------------------------------------------------------------------------------------------Hero Image on Home Page*/
 
 #cover-outer {
+    height: 600px;
+    width: 100%;
     position: relative;
+  
 }
 
 #cover-image {
@@ -78,64 +75,73 @@ header {
      background-size: cover;
 }
 
-#cover-text h1 {
+#cover-text h2 {
 color: #ffffff;
-font-size: 130%;
+font-size: 135%;
 }
 
 #cover-text {
     padding-top: 10px;
-    
+    border-radius: 10%;
     height: 220px;
     width: 220px;
-    padding-top: 60px;
-    padding-left: 20px;
+    padding-top: 70px;
+    padding-left: 25px;
 
     background-color:rgba(116, 46, 131, 0.5);
 
-    bottom: 10px;
-    right: 90px;
+    bottom: 30px;   
+    right: 150px;
     position: absolute;
-
 }
 
 
 /*-----------------------------------------------------------------------------------------------------------Services on home Page*/
 
-#serviceitem div {
-    width: 25%;
-    height: 200px;
-    float: left;
+#service-outer {
+   display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#serviceitem {
+  display: flex;
+    justify-content: space-around; 
+   align-items: center; 
+    width: 97%;
+}
+
+.home-services-content {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
     text-align: center;
     padding-top: 35px;  
+    display: flex;
+    justify-content: space-around; 
+  
 }
 
-#flu {
+.home-services-content {
+  color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+#flu, #blister {
     background-color:rgba(116, 46, 131, 0.5);
 }
 
-#blood-pressure {
+#blood-pressure, #delivery {
     background-color:rgba(0, 181, 203, 0.5);
 }
 
-#blister {
-    background-color:rgba(116, 46, 131, 0.5);
-}
-
-#delivery {
-    background-color:rgba(0, 181, 203, 0.5);
-}
-
-.serviceitem div {
+.home-services-content a {
     color: #ffffff;
     text-decoration: none;
-    ;
-}
-
-.home-servvices-content a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 /*---------------------------------------------------------------------------------------------------Footer*/
@@ -188,12 +194,14 @@ background: #742E83;
 
 /*-------------------------------------------------------------------------------------------------------------About Page*/
 
-.about-us .team {
-    padding-top: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
+#about-us-text {
+    margin: 25px;
+    
 }
 
+.team {
+    margin-left: 50px;
+}
 
 
 #teamsr {
@@ -213,18 +221,21 @@ background: #742E83;
     border-radius: 50%;
     align-items: center;
     margin-left: 15px;
+    margin: 0 auto;
 }
 
 #circle-image-sr-bg {
     background: url("../images/pharmacistsr.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
+
 }
 
 #circle-image-pr-bg {
     background: url("../images/pharmacistpr.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    
 }
 
 .about-container {
@@ -258,14 +269,16 @@ button[type="submit"] {
      height:80%;
      width: 100%;
      background: url("../images/find-us-map.png") no-repeat center center;
-     overflow: hidden;
+     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
-     
 }
 
+#map {
+overflow: hidden;
+}
 
 /*---------------------------------------------------------------------------------------------------------------Services Page*/
 
@@ -283,3 +296,44 @@ button[type="submit"] {
     color:#00B5CB;
 }
 
+
+/* TABLET VIEW
+@media screen and (max-width: 1393px){
+    #service-outer {
+        width: 65%;
+        margin: 0 auto;
+
+.home-services-content {
+    font-size: 65%;
+}
+
+    }
+
+    
+
+    @media screen and (max-width: 943px){
+
+    }
+
+
+@media screen and (max-width: 943px){
+
+    #navbar{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
+
+    */
+
+    @media screen and (max-width: 943px){
+        #service-outer {
+            
+            }
+
+
+
+    }
