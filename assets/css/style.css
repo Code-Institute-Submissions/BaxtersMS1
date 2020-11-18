@@ -100,7 +100,7 @@ font-size: 135%;
 
 #service-outer {
    display: flex;
-    height: 300px;
+   min-height: 300px;
     width: 100%;
     margin-left: 10px;
     background-color: #ffffff;
@@ -183,7 +183,7 @@ background: #742E83;
 }
 
 .email-address a {
-    color: #777777;
+    color: #ffffff;
     text-decoration: none;
 }
 
