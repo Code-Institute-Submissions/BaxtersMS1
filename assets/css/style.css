@@ -13,13 +13,13 @@ body{
 
 header {
     margin: 0;
-    height: 130px;
+    height: 140px;
     }
 /*-----------------------------------------------------------------------------------------------------------------------Logo*/
 
 #logo {
-      width: 130px;
-      height: 130px;   
+      width: 140px;
+      height: 140px;   
       background-image: url("../images/baxters-logo.png");
       background-repeat: no-repeat;
       background-size: contain;
@@ -40,6 +40,13 @@ header {
     line-height: 75px;
 }
 
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
 /*---------------------------------------------------------------------------------------------------------------Colours*/
 
 .ui-about-colour-about {
@@ -77,14 +84,14 @@ header {
 
 #cover-text h2 {
 color: #ffffff;
-font-size: 135%;
+font-size: 125%;
 }
 
 #cover-text {
     padding-top: 10px;
     border-radius: 10%;
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
     padding-top: 70px;
     padding-left: 25px;
 
@@ -100,6 +107,8 @@ font-size: 135%;
 
 #service-outer {
    display: flex;
+   align-items: center;
+   justify-content: space-around; 
    min-height: 300px;
     width: 100%;
     margin-left: 10px;
@@ -107,9 +116,6 @@ font-size: 135%;
 }
 
 #serviceitem {
-  display: flex;
-    justify-content: space-around; 
-   align-items: center; 
     width: 97%;
 }
 
@@ -119,8 +125,6 @@ font-size: 135%;
     border-radius: 50%;
     text-align: center;
     padding-top: 35px;  
-    display: flex;
-    justify-content: space-around; 
 }
 
 .home-services-content {
@@ -143,6 +147,8 @@ font-size: 135%;
     text-decoration: none;
     font-size: 18px;
 }
+
+
 
 /*---------------------------------------------------------------------------------------------------Footer*/
 footer {
@@ -194,6 +200,7 @@ background: #742E83;
 
 /*-------------------------------------------------------------------------------------------------------------About Page*/
 
+
 #meet-team {
     padding: 10px;
 }
@@ -201,6 +208,13 @@ background: #742E83;
 #about-us-text {
     padding: 10px;
 }
+
+.block-divider{
+    width: 10px,;
+    height: 5px;
+    background-color: red;
+    border: 0;
+    }
 
 .team {
     margin-left: 50px;
@@ -260,10 +274,25 @@ background: #742E83;
     max-width: 70%;
 }
 
-button[type="submit"] {
+.contact-button {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #00B5CB;
+    border-color:  #00B5CB;
+    color: #ffffff;
+    width: 185px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
+.contact-button:hover,
+.contact-button:active,
+.contact-button:focus,
+.contact-button:focus {
+    background-color: #00B5CB;
+    border-color: #00B5CB;
+    color: #ffffff;
 }
 
 
@@ -300,43 +329,10 @@ overflow: hidden;
 }
 
 
-/* TABLET VIEW
-@media screen and (max-width: 1393px){
-    #service-outer {
-        width: 65%;
-        margin: 0 auto;
+/*---------------------------------------------------------------------------------------------------------Book an appointment Services Page*/
 
-.home-services-content {
-    font-size: 65%;
+.booking-container {
+display: flex;
+justify-content: center;
+height: 250px;
 }
-
-    }
-
-    
-
-    @media screen and (max-width: 943px){
-
-    }
-
-
-@media screen and (max-width: 943px){
-
-    #navbar{
-        clear: left;
-        float: left;
-        margin-left: 30px; 
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-}
-
-    */
-
-    @media screen and (max-width: 943px){
-        #service-outer {
-            
-            }
-
-
-
-    }
