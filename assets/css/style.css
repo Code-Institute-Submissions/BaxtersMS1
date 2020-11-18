@@ -102,6 +102,7 @@ font-size: 135%;
    display: flex;
     height: 300px;
     width: 100%;
+    margin-left: 10px;
     background-color: #ffffff;
 }
 
@@ -120,7 +121,6 @@ font-size: 135%;
     padding-top: 35px;  
     display: flex;
     justify-content: space-around; 
-  
 }
 
 .home-services-content {
@@ -194,9 +194,12 @@ background: #742E83;
 
 /*-------------------------------------------------------------------------------------------------------------About Page*/
 
+#meet-team {
+    padding: 10px;
+}
+
 #about-us-text {
-    margin: 25px;
-    
+    padding: 10px;
 }
 
 .team {
