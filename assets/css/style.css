@@ -113,6 +113,12 @@ header {
   background-color: #ffffff;
 }
 
+#homepage-services {
+margin: 0 auto;
+margin-top: 10px;
+}
+
+
 #serviceitem {
   width: 97%;
 }
