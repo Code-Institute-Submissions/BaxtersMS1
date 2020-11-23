@@ -8,9 +8,10 @@
 
 body {
   font-family: roboto;
-  color: #777777;
-  
+  color: #777777; 
 }
+
+body {overflow-x: hidden;}
 
 header {
   margin: 0;
@@ -60,11 +61,6 @@ header {
   text-transform: uppercase;
 }
 
-.container-fluid {
-    margin: 0;
-    padding: 0;
- 
-}
 /*-------------------------------------------------------------------------------------------------------Hero Image on Home Page*/
 
 #cover-outer {
@@ -156,9 +152,9 @@ footer {
   background: #00b5cb;
   min-height: 120px;
   color: #ffffff;
-  margin-bottom: 10px;
-  overflow-x: hidden;
+  margin: 0;  
 }
+
 
 .footer-icons i {
   width: 25px;
