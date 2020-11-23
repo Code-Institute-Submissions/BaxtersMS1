@@ -8,10 +8,12 @@
 
 body {
   font-family: roboto;
-  color: #777777; 
+  color: #777777;
 }
 
-body {overflow-x: hidden;}
+body {
+  overflow-x: hidden;
+}
 
 header {
   margin: 0;
@@ -114,10 +116,9 @@ header {
 }
 
 #homepage-services {
-margin: 0 auto;
-margin-top: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
 }
-
 
 #serviceitem {
   width: 97%;
@@ -158,9 +159,8 @@ footer {
   background: #00b5cb;
   min-height: 120px;
   color: #ffffff;
-  margin: 0;  
+  margin: 0;
 }
-
 
 .footer-icons i {
   width: 25px;
