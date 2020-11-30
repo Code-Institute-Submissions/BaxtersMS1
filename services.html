@@ -253,8 +253,7 @@
       tabindex="-1"
       role="dialog"
       aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -265,8 +264,7 @@
               type="button"
               class="close"
               data-dismiss="modal"
-              aria-label="Close"
-            >
+              aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -277,10 +275,10 @@
                 <div class="col-sm-10">
                   <input
                     type="text"
+                    name="name"
                     class="form-control"
                     id="name"
-                    placeholder="Name"
-                  />
+                    placeholder="Name" required/>
                 </div>
               </div>
               <div class="form-group row">
@@ -288,10 +286,10 @@
                 <div class="col-sm-10">
                   <input
                     type="tel"
+                    name="phone"
                     class="form-control"
                     id="phone"
-                    placeholder="Phone Number"
-                  />
+                    placeholder="Phone Number" required/>
                 </div>
               </div>
 
@@ -306,7 +304,7 @@
               </select>
               <fieldset class="form-group">
                 <div class="row">
-                  <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                  <legend class="col-form-label col-sm-2 pt-0">Time</legend>
                   <div class="col-sm-10">
                     <div class="form-check">
                       <input
