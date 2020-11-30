@@ -24,7 +24,7 @@ header {
 #logo {
   width: 140px;
   height: 140px;
-  background-image: url("../images/baxters-logo.png");
+  background-image: url("../images/baxters-logo.png");   
   background-repeat: no-repeat;
   background-size: contain;
   float: left;
@@ -157,6 +157,8 @@ footer {
   background: #00b5cb;
   min-height: 120px;
   color: #ffffff;
+  font-size: 15px;
+  font-style: bold;
   margin: 0;
 }
 
@@ -164,7 +166,8 @@ footer {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  font-size: 13px;
+   font-size: 15px;
+  font-style: bold;
   line-height: 25px;
   text-align: center;
   background: #742e83;
@@ -176,7 +179,8 @@ footer {
   height: 32px;
   padding: 12px 0;
   border-radius: 50%;
-  font-size: 13px;
+  font-size: 15px;
+  font-style: bold;
   line-height: 10px;
   text-align: center;
   background: #742e83;

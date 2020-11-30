@@ -22,10 +22,7 @@
     <!--------------------Logo and Navigation bar----------------------->
     <header>
       <div class="header">
-        <div id="logo">
-          <a href="index.html"></a>
-          <span class="sr-only">Logo</span>
-        </div>
+        <div id="logo"></div>
 
         <nav class="navbar navbar-expand-sm navbar-light bg-white">
           <button
@@ -66,31 +63,30 @@
 
           <div class="center-form">
             <form>
+            <label for="fullname">Name</label>
               <input
                 type="text"
                 name="name"
                 id="fullname"
-                class="form-control"
-                placeholder="Name" required/>
+                class="form-control" required/>
+              <label for="emailaddress">Email</label>
               <input
                 type="email"
                 name="email"
                 id="emailaddress"
-                class="form-control"
-                placeholder="Email" required/>
+                class="form-control" required/>
+              <label for="phone">Phone</label>
               <input
                 type="tel"
                 id="phone"
                 name="phone"
-                class="form-control"
-                placeholder="Phone" required/>
+                class="form-control" required/>
+              <label for="query">Query</label>
               <textarea
                 rows="3"
                 name="query"
                 id="query"
-                class="form-control"
-                placeholder="Your Query"
-                required></textarea>
+                class="form-control" required></textarea>
               <div class="form-row text-center">
                 <div class="col">
                   <button type="submit" class="btn contact-button">
@@ -108,7 +104,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <h3 class="contact-heading uppercase text-center">Opening Hours</h3>
+            <h2 class="contact-heading uppercase text-center">Opening Hours</h2>
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -150,7 +146,7 @@
           </div>
 
           <div id="map" class="col-sm d-none d-sm-block">
-            <h3 class="contact-heading uppercase text-center">Find Us</h3>
+            <h2 class="contact-heading uppercase text-center">Find Us</h2>
             <div id="find-us"></div>
           </div>
         </div>
@@ -161,14 +157,14 @@
     <footer class="container-fluid">
       <div id="footer-details" class="row">
         <div class="col-sm-4">
-          <h5 class="uppercase">Location</h5>
+          <h3 class="uppercase">Location</h3>
           <p class="inline-block">
             Main Street, <br />
             Longford
           </p>
         </div>
         <div class="col-sm-4 footer-icons">
-          <h5>Contact</h5>
+          <h3>Contact</h3>
           <p class="inline-block">
             <i class="fa fa-phone"></i> Phone: 043-3346735
           </p>
@@ -178,7 +174,7 @@
           </p>
         </div>
         <div class="col-sm-4">
-          <h5>Social Links</h5>
+          <h3>Social Links</h3>
           <ul class="list-inline social-links">
             <li class="list-inline-item">
               <a
