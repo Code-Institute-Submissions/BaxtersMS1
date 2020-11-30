@@ -152,13 +152,16 @@ header {
   font-size: 18px;
 }
 
+.home-services-content h3 {
+        font-size: 1.25rem;
+}
 /*---------------------------------------------------------------------------------------------------Footer*/
 footer {
   background: #00b5cb;
   min-height: 120px;
   color: #ffffff;
   font-size: 15px;
-  font-style: bold;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -167,7 +170,7 @@ footer {
   height: 25px;
   border-radius: 50%;
    font-size: 15px;
-  font-style: bold;
+  font-weight: bold;
   line-height: 25px;
   text-align: center;
   background: #742e83;
@@ -180,7 +183,7 @@ footer {
   padding: 12px 0;
   border-radius: 50%;
   font-size: 15px;
-  font-style: bold;
+  font-weight: bold;
   line-height: 10px;
   text-align: center;
   background: #742e83;
@@ -254,15 +257,11 @@ footer {
   margin: 0 auto;
 }
 
-#circle-image-sr-bg {
-  background: url("../images/pharmacistsr.png") no-repeat center center;
-  height: 100%;
+#circle-image-sr-bg img {
   border-radius: 50%;
 }
 
-#circle-image-pr-bg {
-  background: url("../images/pharmacistpr.png") no-repeat center center;
-  height: 100%;
+#circle-image-pr-bg img {
   border-radius: 50%;
 }
 
