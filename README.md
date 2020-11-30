@@ -10,6 +10,18 @@ It is designed to be responsible and accessible on a range of devices, making it
 
 **User Experience (UX)**
 
+In planning my development I considered the five planes the good UX design.
+
+**Strategy:** This is a B2C website which has to appeal to a mass of audience of adults of all ages. As such the language I used could not be overly formal or technical. The aim was to portray a feeling openness and friendliness, while being professional at the same time.
+
+**Scope:** The functional aim of the website is to be primarily informational in its content. The aim is to inform the user ie existing and potential customers of who we are, what do we offer and where are we based.
+
+**Skeleton:** I used Balsamiq to create a basic wireframe prior to commencing development work. From this I created the basic structure of each page and the features for each one.
+
+**Structure:** Once the basic wireframes were in place I determined the best flow for the website so that users could easily move through the site to find the information that they needed. I also expanded the content at this stage to ensure it was informative and consistent throughout the website.
+
+**Surface:** At this stage I commenced development work on the website.
+
 - **User stories**
   - **Site Owner Goals**
 
@@ -25,9 +37,9 @@ It is designed to be responsible and accessible on a range of devices, making it
 
   - **Potential Customer Goals**
 
-    - As a Potential Customer, I want to see who owns the pharmacy and can I trust them.
-    - As a Potential Customer, I want to check where you are located.
-    - As a Potential Customer, I want to know if I can get the flu vaccination.
+1. As a Potential Customer, I want to see who owns the pharmacy and can I trust them.
+2. As a Potential Customer, I want to check where you are located.
+3. As a Potential Customer, I want to know if I can get the flu vaccination.
 
 - **Design**
 
@@ -37,7 +49,13 @@ Baxters is a community pharmacy so the overall design theme is clean and modern.
 
 **Colour Scheme**
 
-As Baxters is part of TotalHealth I integrated the colours used by Totalhealth as part of the overall design. The two main colours in use are purple and green. Green is the primary colour used for branding with purple used as an accent shade. I also used the green colour for CTAs throughout the site.
+As Baxters is part of TotalHealth I integrated the colours used by Totalhealth as part of the overall design. The two main colours in use are purple and green. Green is the primary colour used for branding with purple used as an accent shade. I also used the green colour for CTAs throughout the site. The colours used were:
+
+Green #00B5CB rgb(0, 181, 203)
+
+Purple #742E83 rgb(116, 46, 131)
+
+Grey #777777 rgb(119, 119, 119)
 
 **Typography**
 
@@ -103,6 +121,8 @@ A bold and central image of the owner smiling immediately creates a feeling of t
 
 **Resposiveness:** I designed the site as a mobile first site. Bootstrap was used throughout the site to facilitate this and I tested the responsiveness on a number of devices using Dev tools.
 
+**Accessibility:** I used [Wave](https://wave.webaim.org/) to test the accessibility of the site.
+
 **User Story Testing**
 
   - **Site Owner Goals**
@@ -159,11 +179,33 @@ This service is prominently displayed on the homepage with a link to the Service
 - I used Lighthouse in Chrome Devtools to check for site performance, accessibility and best practices. Results: Performance 72, Accessibility 92, Best Practices 86 and SEO 91.
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 &amp; iPhoneX.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+- During the development process I realised by commit messages were not descriptive or frequent enough. I realised this around commit number 15 and from that point on I provided more frequent and descriptive commits.
+- During the development I realised that I needed to put my README assets in a separate folder for security reasons as we don&#39;t want to deploy them.
+
+**Accessibility Testing:**
+
+- Where icons were used I included the included the class aria-hidden=&quot;true&quot; so as not to confuse screen readers.
+- Where possible I added \&lt;span\&gt; with a sr-only class and text for screen readers. The text will not be displayed on a regular screen.
+- While using [Wave](https://wave.webaim.org/) to test the accessibility of the site I discovered some errors including missing labels on the contact us table and skipped h tags which I rectified.
+- I also used alt tags on images where possible (the owner images on the About Us page).
+
+**Usability Testing:**
+
+- Where links were used to external sources such as social media links in the footer I included target\_blank to ensure these pages opened in a separate window so the user doesn&#39;t completely leave our page.
+
+**Responsiveness Testing:**
+
+- I used Bootstrap across the application to ensure that the pages were responsive on all devices. I this this across devices and also using Dev tools.
 
 **Bugs Solved**
 
 - The map on the Contact page was pushing into the footer on mobile devices. I rectified this by adjusting the height of the contents in the container. I also hid the map on smaller devices.
 - I encountered a horizontal scrollbar during testing. On investigation it related to the container size of the footer of each page. I fixed the bug by altering the margin of the container so that the contents did not overflow.
+
+**Further work to be done**
+
+- Currently when the modal on the Services page to &quot;book an appointment&quot; is clicked, the popup does not go anywhere. In a future development project I would correct this. I will also create a confirmation pop-up for users to let them know that their request has been submitted.
+- Similarly when the form on the Contact page is submitted it does not do anything. I will correct this by creating a pop-up thanking users for submitting the form. This will ensure a good user experience.
 
 **De­­ployment**
 
