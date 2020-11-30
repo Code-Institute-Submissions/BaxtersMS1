@@ -4,17 +4,17 @@
 
 This is the website for Baxters Pharmacy, a local community pharmacy. Baxters does not currently have an online presence. The website has been created to enable Baxters to be found online so that they can compete with local competitors and also to showcase the range of services that they offer.
 
-It is designed to be responsible and accessible on a range of devices, making it easy to navigate for existing and potential customers.
+It is designed to be responsive and accessible on a range of devices, making it easy to navigate for existing and potential customers.
 
 ![Home page](/readme-assets/homepage-image.JPG)
 
 **User Experience (UX)**
 
-In planning my development I considered the five planes the good UX design.
+In planning my development I considered the five planes of good UX design.
 
 **Strategy:** This is a B2C website which has to appeal to a mass of audience of adults of all ages. As such the language I used could not be overly formal or technical. The aim was to portray a feeling openness and friendliness, while being professional at the same time.
 
-**Scope:** The functional aim of the website is to be primarily informational in its content. The aim is to inform the user ie existing and potential customers of who we are, what do we offer and where are we based.
+**Scope:** The functional aim of the website is to be primarily informational in its content. The aim is to inform the user ie existing and potential customers of who we are, what do we offer and where we are based.
 
 **Skeleton:** I used Balsamiq to create a basic wireframe prior to commencing development work. From this I created the basic structure of each page and the features for each one.
 
@@ -25,7 +25,7 @@ In planning my development I considered the five planes the good UX design.
 - **User stories**
   - **Site Owner Goals**
 
-1. As a Site owner, I want to portray a sense of trust and transparency by explaining who I am and that I am locally owned business.
+1. As a Site owner, I want to portray a sense of trust and transparency by explaining who I am and that I am a locally owned business.
 2. As a Site owner, I want to be able to easily explain the list of services that I offer.
 3. As a Site owner, I want to communicate to customers what my opening hours at and how to contact me.
 
@@ -40,6 +40,7 @@ In planning my development I considered the five planes the good UX design.
 1. As a Potential Customer, I want to see who owns the pharmacy and can I trust them.
 2. As a Potential Customer, I want to check where you are located.
 3. As a Potential Customer, I want to know if I can get the flu vaccination.
+
 
 - **Design**
 
@@ -67,7 +68,7 @@ Imagery is very important. The images help to develop trust with the user. By us
 
 - **Wireframes**
 
-I created the wireframe in Balsamiq which I then exported to **pdf.** See [link here](https://github.com/asplesa/BaxtersMS1/blob/85b765e238d74d159c43ae770cc2f87cc6bf985a/readme-assets/Baxters%20wireframe%20MS1.pdf).
+I created the wireframe in Balsamiq which I then exported to **pdf.** See [link here](https://github.com/asplesa/BaxtersMS1/blob/5b1b2dd61ad0747e6b7ee0535fcec28f6894a1b4/readme-assets/baxters-wireframe-ms1.pdf).
 
 **Features**
 
@@ -115,11 +116,11 @@ I created the wireframe in Balsamiq which I then exported to **pdf.** See [link 
 
 **Links:** All internal and external links on the site were checked and verified.
 
-**UX/UI:** Upon entering the site users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. I used a \&lt;nav\&gt; for semantic clarity to allow search engines to know that the links inside are specifically for navigation. The navbar is ordered in priority of information from left to right. So starting with the home-page, followed by the About page, to create trust with users, followed by services offered and the contact page.
+**UX/UI:** Upon entering the site users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. I used a navbar for semantic clarity to allow search engines to know that the links inside are specifically for navigation. The navbar is ordered in priority of information from left to right. So starting with the home-page, followed by the About page, to create trust with users, followed by services offered and the contact page.
 
-A bold and central image of the owner smiling immediately creates a feeling of trust. The sense is extended in the About us page where I included images of the owners along with a bio to create a sense of &quot;knowing&quot; your local pharmacist.
+A bold and central image of the owner smiling immediately creates a feeling of trust. The sense is extended in the About us page where I included images of the owners along with a bio to create a sense of knowing your local pharmacist.
 
-**Resposiveness:** I designed the site as a mobile first site. Bootstrap was used throughout the site to facilitate this and I tested the responsiveness on a number of devices using Dev tools.
+**Resposiveness:** I designed the site as a mobile first site. Bootstrap was used throughout the site to facilitate this and I tested the responsiveness on a number of devices and Dev tools.
 
 **Accessibility:** I used [Wave](https://wave.webaim.org/) to test the accessibility of the site.
 
@@ -129,47 +130,47 @@ A bold and central image of the owner smiling immediately creates a feeling of t
 
     1. As a Site owner, I want to portray a sense of trust and transparency by explaining who I am and that I am locally owned business.
 
-On the About page I included smiling photos of the owners to create a sense of trust and friendliness. I also included a bio for each of the owners so customers could learn a little bit about the owners.
+        On the About page I included smiling photos of the owners to create a sense of trust and friendliness. I also included a bio for each of the owners so customers could learn a little bit about the owners.
 
 ![About page](/readme-assets/about-image.JPG)
 
-  1. As a Site owner, I want to be able to easily explain the list of services that I offer.
+    2. As a Site owner, I want to be able to easily explain the list of services that I offer.
 
-On the Services page I listed a number of the services that are offered by the pharmacy along with a brief description of what each service is.
+        On the Services page I listed a number of the services that are offered by the pharmacy along with a brief description of what each service is.
 
-  1. As a Site owner, I want to communicate to customers what my opening hours at and how to contact me.
+    3. As a Site owner, I want to communicate to customers what my opening hours at and how to contact me.
 
-On the Contact page I listed the opening hours of the pharmacy. I also included an easy to use contact us CTA.
+        On the Contact page I listed the opening hours of the pharmacy. I also included an easy to use contact us CTA.
 
 ![Contact page](/readme-assets/contact-image.JPG)
 
   - **Existing Customer Goals**
 
-1. As an Existing Customer, I want to know what your opening hours are.
+    1. As an Existing Customer, I want to know what your opening hours are.
 
-Opening hours are clearly displayed on the Contact page.
+        Opening hours are clearly displayed on the Contact page.
 
-1. As an Existing Customer, I want to know if you will deliver my prescriptions to me.
+    2. As an Existing Customer, I want to know if you will deliver my prescriptions to me.
 
-This key service is prominently displayed on the homepage with a link to the Services page if customers wish to read more.
+        This key service is prominently displayed on the homepage with a link to the Services page if customers wish to read more.
 
-1. As an Existing Customer, I want to find community links.
+    3. As an Existing Customer, I want to find community links.
 
-I included the social links in the footer of all pages.
+        I included the social links in the footer of all pages.
 
   - **Potential Customer Goals**
 
     1. As a Potential Customer, I want to see who owns the pharmacy and can I trust them.
 
-On the About page I included smiling photos of the owners to create a sense of trust and friendliness. I also included a bio for each of the owners so customers could learn a little bit about the owners
+        On the About page I included smiling photos of the owners to create a sense of trust and friendliness. I also included a bio for each of the owners so customers could learn a little bit about the owners
 
-    1. As a Potential Customer, I want to check where you are located.
+    2. As a Potential Customer, I want to check where you are located.
 
-On the Contact page I listed the opening hours of the pharmacy and also a map so that users can see exactly where the shop is located in the town. I also included the address and contact details in the footer of each page for ease of use.
+        On the Contact page I listed the opening hours of the pharmacy and also a map so that users can see exactly where the shop is located in the town. I also included the address and contact details in the footer of each page for ease of use.
 
-    1. As a Potential Customer, I want to know if I can get the flu vaccination.
+    3. As a Potential Customer, I want to know if I can get the flu vaccination.
 
-This service is prominently displayed on the homepage with a link to the Services page if customers wish to read more. I also included a clear CTA button allowing customers to easily book an appointment.
+        This service is prominently displayed on the homepage with a link to the Services page if customers wish to read more. I also included a clear CTA button allowing customers to easily book an appointment.
 
 ![Services page](/readme-assets/services-image.JPG)
 
@@ -184,8 +185,8 @@ This service is prominently displayed on the homepage with a link to the Service
 
 **Accessibility Testing:**
 
-- Where icons were used I included the included the class aria-hidden=&quot;true&quot; so as not to confuse screen readers.
-- Where possible I added \&lt;span\&gt; with a sr-only class and text for screen readers. The text will not be displayed on a regular screen.
+- Where icons were used I included the included the class aria-hidden=true so as not to confuse screen readers.
+- Where possible I added span tag with a sr-only class and text for screen readers. The text will not be displayed on a regular screen.
 - While using [Wave](https://wave.webaim.org/) to test the accessibility of the site I discovered some errors including missing labels on the contact us table and skipped h tags which I rectified.
 - I also used alt tags on images where possible (the owner images on the About Us page).
 
